@@ -129,7 +129,7 @@ function deletarReceita(id) {
   console.log("receita deletada com sucesso!");
 
   // para o funcionamento do delete como está nesta função foi necessário alterar a listaDeReceitas de const para var e adicionar a função exibir Receitas ao final desta função
-  // porem persiste o bug com os ids das receitas(seus numeros ñ são atualizados), necessário refatorar
+  // porem persiste o bug com os ids das receitas(seus numeros ñ são atualizados) (adicionado comando em carregarReceita())
   exibirReceitas();
 }
 
